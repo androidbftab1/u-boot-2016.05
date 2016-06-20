@@ -1,0 +1,9 @@
+export BOARD=bpi-m1-legacy
+export ARCH=arm
+KBUILD_OUTPUT=out/$BOARD
+export KBUILD_OUTPUT
+mkdir -p $KBUILD_OUTPUT
+export CROSS_COMPILE=arm-linux-gnueabihf-
+make BPI-Bananapi_defconfig
+make -j8
+./bpi-uimgz.sh $BOARD

@@ -1,0 +1,10 @@
+./bpi-m1-legacy
+./bpi-m1p-legacy
+./bpi-r1-legacy
+./bpi-m1
+./bpi-m1p
+./bpi-r1
+./bpi-m2
+./bpi-m2p-legacy
+./bpi-m2p
+./bpi-m3
